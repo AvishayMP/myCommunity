@@ -1,10 +1,10 @@
-import { Outlet } from "react-router-dom";
+import Hero from "./Hero";
 
 function Content() {
     return (
         <>
             <h1>Content</h1>
-            <Outlet />
+            <Hero/>
         </>);
 }
 
