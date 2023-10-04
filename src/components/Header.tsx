@@ -3,7 +3,7 @@ import { Navbar, Nav } from 'react-bootstrap';
 function Header() {
     return (
         <>
-        <h4>מוסדות אהבת ישראל</h4>
+            <h4 className='text-center'>מוסדות אהבת ישראל</h4>
             <Navbar bg="light" expand="lg">
                 <Navbar.Brand href="/">Logo</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

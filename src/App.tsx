@@ -3,13 +3,17 @@ import Header from "./components/Header";
 import Content from "./components/Content";
 
 
-import 'bootstrap/dist/css/bootstrap.rtl.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Page1 from "./components/Pages/Page1";
 import Page2 from "./components/Pages/Page2";
-
+import { useEffect } from 'react';
 
 function App() {
+  useEffect(() => {
+    document.title = "מוסדות אהבת ישראל";    
+  })
   return (<>
     <Header />
     <BrowserRouter>
